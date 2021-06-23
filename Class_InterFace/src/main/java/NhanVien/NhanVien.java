@@ -1,11 +1,12 @@
 package NhanVien;
 
+import Common.IPerson;
 import Common.Person;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class NhanVien extends Person {
+public class NhanVien extends Person implements IPerson {
     String phoneNumber;
     int id;
     int timeWorking;
@@ -18,4 +19,18 @@ public class NhanVien extends Person {
     }
 
 
+    @Override
+    public void An() {
+
+    }
+
+    @Override
+    public void Ngu() {
+
+    }
+
+    @Override
+    public void Tho() {
+
+    }
 }
